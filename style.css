@@ -1,0 +1,24 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;;
+}
+table{
+    border: 1px solid black;
+}
+td,th {
+    padding: 4px;
+    border: 2px solid black;
+}
+tr:first-child{
+    background-color: green;
+    color: aliceblue;
+}
+tr td:first-child {
+    font-weight: bold;
+}
+                                        /*задание№8*/
+tr:nth-child(2n+1) td:nth-child(2n) {
+    background-color: #c9efc9;
+}
+tr:nth-child(2n) td:nth-child(2n+1) {
+    background-color: #c9efc9;
+}
